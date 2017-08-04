@@ -34,7 +34,7 @@ Quick Links:
 
 ### Optimization overview
 
-这里会简单介绍项目主体文件夹里的内容：
+这里会简单介绍本项目是如何优化的：
 
 - **index相关**
   1. 移除了web字体的获取，web字体受网络环境制约太大(国内网络环境无法获取google的web字体)。
