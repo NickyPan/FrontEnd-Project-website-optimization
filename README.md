@@ -18,19 +18,25 @@ Quick Links:
 
 #### Usage
 
-1. 直接运行本地版本
+1. 直接运行本地版本（未压缩版本）
 
    ```
     $ gulp
    ```
 
-2. 运行的是distribution版本并在命令行中打印pagespeed分数
+2. 运行的是distribution版本（经过脚本压缩html, js, css, image的版本）
+
+   ```
+    $ gulp serve-dist
+   ```
+
+3. 运行的是distribution版本并在命令行中打印pagespeed分数
 
    ```
     $ gulp serve-psi
    ```
 
-   注意：以上两种方法均不能实时刷新。另外使用psi测速大概率会由于网络原因timeout。
+   注意：以上方法均不能实时刷新。另外使用psi测速大概率会由于国内网络原因timeout。
 
 ### Optimization overview
 
